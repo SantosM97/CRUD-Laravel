@@ -70,15 +70,7 @@ class ProductController extends Controller
         return $product;
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Product  $product
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Product $product)
-    {
-    }
+
 
     /**
      * Update the specified resource in storage.
